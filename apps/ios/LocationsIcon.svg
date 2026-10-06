@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title">
+  <title id="title">Locations icon concept: a minimal map marker</title>
+  <rect width="1024" height="1024" fill="#102B31"/>
+  <path d="M512 164C332 164 188 308 188 488c0 211 324 374 324 374s324-163 324-374c0-180-144-324-324-324Z" fill="#F1F7F1"/>
+  <circle cx="512" cy="480" r="140" fill="#102B31"/>
+  <circle cx="512" cy="480" r="51" fill="#42D4B2"/>
+</svg>

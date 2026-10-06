@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleName</key>
+    <string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>$(MARKETING_VERSION)</string>
+    <key>CFBundleVersion</key>
+    <string>$(CURRENT_PROJECT_VERSION)</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Locations uses your position on the map and can record places and journeys when you turn on tracking.</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Always access lets Locations record visits in the background and routes while you drive when tracking is on.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Always access lets Locations record visits in the background and routes while you drive when tracking is on.</string>
+    <key>NSLocationTemporaryUsageDescriptionDictionary</key>
+    <dict>
+        <key>TimelineCapture</key>
+        <string>Precise Location helps Locations record accurate visits and drive routes when tracking is on.</string>
+    </dict>
+    <key>NSMotionUsageDescription</key>
+    <string>Locations briefly reads motion activity to label journeys and capture detailed driving routes.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>Locations accesses Contacts when you choose people for a saved place.</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>Locations reads workouts you approve to show them alongside places and journeys.</string>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>UIAppFonts</key>
+    <array>
+        <string>BricolageGrotesque.ttf</string>
+    </array>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>location</string>
+    </array>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+        <string>UIInterfaceOrientationPortrait</string>
+    </array>
+</dict>
+</plist>

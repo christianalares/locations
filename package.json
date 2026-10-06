@@ -1,0 +1,13 @@
+{
+  "name": "locations",
+  "private": true,
+  "packageManager": "pnpm@10.18.2",
+  "scripts": {
+    "check": "pnpm --dir server check-types && pnpm --dir server test && biome check .",
+    "format": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "railway": "3.11.0"
+  }
+}

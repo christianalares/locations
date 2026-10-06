@@ -1,0 +1,31 @@
+node_modules/
+**/.build/
+**/.swiftpm/
+*.xcodeproj/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.xcuserstate
+.railway/config.json
+
+# Signing credentials and local build artifacts
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+*.ipa
+*.app/
+*.xcarchive/
+
+# Device credentials, capture ledgers, and local exports
+locations-sync-bootstrap.json
+timeline-v1.json
+pending-capture-v1.json
+backups/
+exports/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal

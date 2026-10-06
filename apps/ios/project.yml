@@ -1,0 +1,35 @@
+name: LocationsIOS
+options:
+  bundleIdPrefix: se.hiddenvillage
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+
+packages:
+  LocationsKit:
+    path: ../../swift
+
+targets:
+  LocationsIOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: LocationsIOS
+    dependencies:
+      - package: LocationsKit
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: se.hiddenvillage.Locations.ios
+        PRODUCT_NAME: Locations
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "5"
+        CODE_SIGN_STYLE: Automatic
+        GENERATE_INFOPLIST_FILE: NO
+        INFOPLIST_FILE: LocationsIOS/Info.plist
+        CODE_SIGN_ENTITLEMENTS: LocationsIOS/LocationsIOS.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1"
+        ENABLE_PREVIEWS: YES
+      configs:
+        Debug:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "$(inherited) DEBUG"
