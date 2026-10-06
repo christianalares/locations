@@ -1,6 +1,27 @@
-# Locations
+<div align="center">
+  <img src="docs/images/icon.svg" alt="Locations app icon" width="96" height="96" />
+  <h1>Locations</h1>
+  <p><strong>Your places and journeys, recorded on your iPhone.</strong></p>
+  <p>A personal location diary. Built for you to own, host, and make your own.</p>
+  <p>
+    <a href="#get-it-running">Get started</a> ·
+    <a href="docs/setup.md">Host your backup</a> ·
+    <a href="#make-it-your-own">Make it yours</a> ·
+    <a href="docs/privacy.md">Privacy</a>
+  </p>
+  <p><strong>SwiftUI</strong> &nbsp; / &nbsp; <strong>iOS 26+</strong> &nbsp; / &nbsp; <strong>Optional self-hosted sync</strong> &nbsp; / &nbsp; <a href="LICENSE">MIT</a></p>
+</div>
 
-**Your places and journeys, recorded on your iPhone.**
+<br />
+
+<div align="center">
+  <img src="docs/images/stockholm-timeline.png" alt="Locations timeline and map showing fictional visits and journeys around public Stockholm landmarks" width="340" />
+  &nbsp;&nbsp;
+  <img src="docs/images/stockholm-calendar.png" alt="Locations calendar showing a fictional month of daily activity" width="340" />
+  <p><sub>The real iPhone interface, with fictional Stockholm demo data. No personal location history.</sub></p>
+</div>
+
+<br />
 
 Locations builds a personal timeline of where you went, when you arrived and
 left, and how you travelled. It records visits and driving routes in the
@@ -107,8 +128,9 @@ The device token protects native reads, writes, and restoration and stays in
 the iPhone Keychain. MCP tokens cannot write. A read token omits coordinates
 but still reveals place names and visit times; a detail token can return drive
 routes only when explicitly requested. See [privacy](docs/privacy.md) and
-[sync and recovery](docs/sync-and-restore.md). Tests and previews use fictional
-Null Island fixtures, never a live location ledger.
+[sync and recovery](docs/sync-and-restore.md). Tests and built-in previews use
+fictional Null Island fixtures. The README screenshots use a separate fictional Stockholm
+demo at public landmarks; neither uses a live location ledger.
 
 ## Development
 
